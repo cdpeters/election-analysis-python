@@ -124,7 +124,8 @@ raw data file to be read. This would allow election commissions to analyze raw
 data files that are different in structure with the same script as long as the
 structure is specified in the arguments to the function. Something similar to:
 ```python
-def election_audit(filepath, county_index, candidate_index)
+def election_audit(filepath, county_index, candidate_index):
+    # Election analysis here
 ```
 Here ```county_index``` and ```candidate_index``` would contain the value of
 the index where those respective names can be found within a row. These indices
